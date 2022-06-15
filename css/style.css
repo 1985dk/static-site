@@ -67,7 +67,7 @@ body {
 	display: block;
 	position: absolute;
 	top: 50%;
-	margin-top: -56px;
+	margin-top: -40px;
 	left: 50%;
 	margin-left: -125px;	
 }
@@ -87,9 +87,9 @@ body {
 		display: block;
 		position: absolute;
 		top: 50%;
-		margin-top: -34px;
+		margin-top: -18px;
 		left: 50%;
-		margin-left: -75px;	
+		margin-left: -40px;	
 	}
 	#logo img {
 		width: 80px;
