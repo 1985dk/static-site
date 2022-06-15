@@ -1,291 +1,88 @@
-		/* http://meyerweb.com/eric/tools/css/reset/ 
-		   v2.0 | 20110126
-		   License: none (public domain)
-		*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
-		html, body, div, span, applet, object, iframe,
-		h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-		a, abbr, acronym, address, big, cite, code,
-		del, dfn, em, img, ins, kbd, q, s, samp,
-		small, strike, strong, sub, sup, tt, var,
-		b, u, i, center,
-		dl, dt, dd, ol, ul, li,
-		fieldset, form, label, legend,
-		table, caption, tbody, tfoot, thead, tr, th, td,
-		article, aside, canvas, details, embed, 
-		figure, figcaption, footer, header, hgroup, 
-		menu, nav, output, ruby, section, summary,
-		time, mark, audio, video {
-			margin: 0;
-			padding: 0;
-			border: 0;
-			font-size: 100%;
-			font: inherit;
-			vertical-align: baseline;
-		}
-		/* HTML5 display-role reset for older browsers */
-		article, aside, details, figcaption, figure, 
-		footer, header, hgroup, menu, nav, section {
-			display: block;
-		}
-		body {
-			line-height: 1;
-		}
-		ol, ul {
-			list-style: none;
-		}
-		blockquote, q {
-			quotes: none;
-		}
-		blockquote:before, blockquote:after,
-		q:before, q:after {
-			content: '';
-			content: none;
-		}
-		table {
-			border-collapse: collapse;
-			border-spacing: 0;
-		}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
-		/* RESET.CSS END */
-
-		/* FONTS
-
-		font-family: 'Shrikhand', cursive;
-		font-family: 'Abril Fatface', cursive;
-		font-family: 'Passion One', cursive;
-
-		*/
+/* RESET.CSS END */
 
 
-		html{
-		 	height:100%;
-		 	min-height:100%;
-			}
-		body {
-		 	min-height:100%;
-			font-family: 'Shrikhand', cursive;;
-			background-color: #fff;
-			background-image: url('../img/bg.jpg');
-			background-size: cover;
-			background-position: center center;
-			color: #000;
-		}
 
-		#info{
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			margin: -125px 0 0 -200px;
-			text-align: center;
-			width: 400px;
-			height: 250px;
-			background: transparent url('../img/halflogo.png') top right no-repeat;
-			
-			padding: 10px;
-			-webkit-box-shadow: 0 0 500px 0 rgba(0,0,0,0.4);
-			box-shadow: 0 0 500px 0 rgba(0,0,0,0.4);
-		}
-		#info span {
-			font-size: 2em;
-		}
-		#info p {
-			margin: 10px 0 10px 0;
-		}
+html{
+	height:100%;
+	min-height:100%;
+	}
+body {
+	min-height:100%;
+	background-color: #151515;
+	background-image: url('../img/denim-bg.jpg');
+	background-size: cover;
+	background-position: center center;
+	color: #000;
+}
 
-		h1 {
-			color: #58585b;
-			text-align: left;
-			font-size: 1.9em;
-			font-family: 'Shrikhand', cursive;
-			height: 130px;
-			vertical-align: bottom;
-			box-sizing: border-box;
-			padding-top: 100px;
-		}
-		h2 {
-			font-family: 'Abril Fatface', cursive;
-			height: 40px;
-			vertical-align: bottom;
-			box-sizing: border-box;
-			padding-top: 0px;
-
-			color: #a1a092;
-			text-align: left;
-			font-size: 1.5em;
-
-			margin: 0 0 10px 0;
-			border-bottom: dotted 1px #a1a092;
-		}
-
-		#logo {
-			background: transparent url('../img/cc-logo-infinity.png') top left no-repeat;
-			width: 150px;
-			height: 68px;
-			float: left;
-			margin: 0 10px 0 0;
-			padding: 0 10px 0 0;
-			border-right: dotted 1px #a1a092;
-		}
-		#logo span {display: none;}
-
-		#contact {
-			float: left;
-			text-align: left;
-			font-family: 'Passion One', cursive;
-		}
-
-		#contact div {
-			height: 20px;
-			font-size: 18px;
-			letter-spacing: 0.5px;
-			box-sizing: border-box;
-			position: relative;
-			margin-top: 1px;
-			margin-bottom: 4px;
-			padding-left: 30px;
-			padding-top: 2px;
-			background-repeat: no-repeat;
-			background-position: top left;
-		}
-		#contact div a {
-			text-decoration: none;
-			color: inherit;
-			-webkit-transition: all 0.2s ease;
-			-moz-transition: all 0.2s ease;
-			-ms-transition: all 0.2s ease;
-			-o-transition: all 0.2s ease;
-			transition: all 0.2s ease;
-		}
-
-		#contact div a:hover {color: #000;}
-
-		#contact-phone {
-			color: #a2a092;
-			background-image: url('../img/phone.png');
-		}
-		#contact-email {
-			color: #a2a092;
-			background-image: url('../img/email.png');
-		}
-		#contact-www {
-			color: #58595b;
-			background-image: url('../img/fave.png');
-		}
+#logo img {
+	width: 250px;
+	height: 113px;
+}
+#logo span {display: none;}
+#logo {text-decoration:none;)
 
 
 
 /* --- iPhone MQ */
 @media only screen and (max-width: 767px) {
-		
-		#info{
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			margin: -200px 0 0 -110px;
-			text-align: center;
-			width: 200px;
-			height: 380px;
-			background: transparent url('../img/halflogo.png') top right no-repeat;
-			
-			padding: 10px;
-			-webkit-box-shadow: 0 0 500px 0 rgba(0,0,0,0.4);
-			box-shadow: 0 0 500px 0 rgba(0,0,0,0.4);
-		}
-		#info span {
-			font-size: 2em;
-		}
-		#info p {
-			margin: 10px 0 10px 0;
-		}
 
-		h1 {
-			color: #58585b;
-			text-align: left;
-			font-size: 1.7em;
-			font-family: 'Shrikhand', cursive;
-			height: 120px;
-			vertical-align: bottom;
-			box-sizing: border-box;
-			padding-top: 90px;
-		}
-		h2 {
-			font-family: 'Shrikhand', cursive;
-			height: 40px;
-			vertical-align: bottom;
-			box-sizing: border-box;
-			padding-top: 25px;
-			padding-bottom: 25px;
-
-			color: #a1a092;
-			text-align: left;
-			font-size: 1.1em;
-			font-family: 'Abril Fatface', cursive;
-
-			border-bottom: none;
-			margin: 0 0 10px 0;
-		}
-
-		#logo {
-			background: transparent url('../img/cc-logo-infinity.png') center center no-repeat;
-			width: 200px;
-			height: 107px;
-			
-			margin: 0 auto 0 auto;
-			box-sizing: border-box;
-
-			border-bottom: dotted 1px #a1a092;
-			border-top: dotted 1px #a1a092;
-			border-right: none;
-			float: none;
-		}
-		#logo span {display: none;}
-
-		#contact {
-			margin-top: 20px;
-			float: none;
-			text-align: left;
-			font-family: 'Passion One', cursive;
-		}
-
-		#contact div {
-			height: 20px;
-			font-size: 18px;
-			letter-spacing: 0.5px;
-			box-sizing: border-box;
-			position: relative;
-			margin-top: 1px;
-			margin-bottom: 4px;
-			padding-left: 30px;
-			padding-top: 2px;
-			background-repeat: no-repeat;
-			background-position: top left;
-		}
-		#contact div a {
-			text-decoration: none;
-			color: inherit;
-			-webkit-transition: all 0.2s ease;
-			-moz-transition: all 0.2s ease;
-			-ms-transition: all 0.2s ease;
-			-o-transition: all 0.2s ease;
-			transition: all 0.2s ease;
-		}
-
-		#contact div a:hover {color: #000;}
-
-		#contact-phone {
-			color: #a2a092;
-			background-image: url('../img/phone.png');
-		}
-		#contact-email {
-			color: #a2a092;
-			background-image: url('../img/email.png');
-		}
-		#contact-www {
-			color: #58595b;
-			background-image: url('../img/fave.png');
-		}
-	}
+#logo img {
+	width: 150px;
+	height: 68px;
+}
+	
+#logo span {display: none;}
+}
 
 
 
