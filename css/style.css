@@ -73,8 +73,8 @@ body {
 }
 
 #logo img {
-	width: 250px;
-	height: 113px;	
+	width: 180px;
+	height: 81px;	
 }
 #logo span {display: none;}
 #logo {text-decoration:none;)
@@ -92,8 +92,8 @@ body {
 		margin-left: -75px;	
 	}
 	#logo img {
-		width: 150px;
-		height: 68px;
+		width: 80px;
+		height: 36px;
 	}
 	#logo span {display: none;}
 	
