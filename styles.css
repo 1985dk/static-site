@@ -11,8 +11,8 @@ body {
 
 .container {
     background-color: #dcdcdc; /* Slightly darker grey box */
-    border-radius: 14px;
-	padding: 6px 14px;
+    border-radius: 3px;
+	padding: 2px 12px;
 	transform:skewX(-7deg);
 }
 
@@ -22,8 +22,9 @@ body {
 }
 
 h1 {
-    font-size: 2.4em;
-    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif; /* Google Font: Roboto */
+    font-size: 2.7em;
+    font-weight: 700;
     line-height: 0 !important;
 	letter-spacing: -3.8px;
 }
